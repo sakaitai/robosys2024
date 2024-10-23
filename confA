@@ -4,7 +4,7 @@ import sys
 def tonum(s):
     try:
         return int(s)
-    eccept:
+    except:
         return float(s)
 
 ans = 0
