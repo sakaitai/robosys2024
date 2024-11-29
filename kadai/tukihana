@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Taisei Sakai
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+def main():
+    # 月ごとの花のリスト
+    flowers = {
+        1: "梅（ウメ）",
+        2: "椿（ツバキ）",
+        3: "桜（サクラ）",
+        4: "藤（フジ）",
+        5: "牡丹（ボタン）",
+        6: "紫陽花（アジサイ）",
+        7: "向日葵（ヒマワリ）",
+        8: "朝顔（アサガオ）",
+        9: "菊（キク）",
+        10: "コスモス",
+        11: "山茶花（サザンカ）",
+        12: "ポインセチア"
+    }
+
+        try:
+            # 標準入力から受け取った月番号を整数に変換
+            month = int(line.strip())
+            
+            # 月番号が1〜12の範囲かどうかをチェック
+            if month >= 1 and month <= 12:
+                print(f"{month}月の花は {flowers[month]} です。")
+            else:
+                print("無効な入力です。1〜12の数字を入力してください。")
+        
+        except ValueError:
+            print("無効な入力です。整数の数字を入力してください。")
+
+if __name__ == "__main__":
+    main()
+ 
+
+
+
