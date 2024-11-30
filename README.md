@@ -17,14 +17,16 @@
  
  ## 使用方法
 - 標準入力を使用
+  
 ` $ echo 3 | ./tukihana`
 - 出力結果
 - 3月の花は桜（サクラ）です。
+  
 - 無効な入力の場合
-``$ echo 13 | ./tukihana ``
+  
+`$ echo 13 | ./tukihana `
 -　出力結果
 -　無効な入力です。1~12の数字を入力してください
--  
 `git clone `
 - 実行権限の付与
 `chmod +x tukihana`
