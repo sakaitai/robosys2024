@@ -19,9 +19,9 @@
  
  ## 使用方法
 - リポジトリのクローン
-`git clone 
+`git clone `
 - 実行権限の付与
-`chmod +x tukihana
+`chmod +x tukihana`
 
 
 
