@@ -45,7 +45,10 @@ $
 
 
 ## ライセンス
-- このソフトウェアパッケージは、https://opensource.org/license/BSD-3-Clause（3条項BSDライセンス）の下、再頒布および使用が許可されています。
+- このソフトウェアパッケージは、
+  
+  https://opensource.org/license/BSD-3-Clause
+- （3条項BSDライセンス）の下、再頒布および使用が許可されています。
 -  *© 2024 Sakaitai*
 
 
