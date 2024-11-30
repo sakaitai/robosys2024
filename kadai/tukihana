@@ -21,22 +21,19 @@ def main():
         12: "ポインセチア"
     }
 
-        try:
-            # 標準入力から受け取った月番号を整数に変換
-            month = int(line.strip())
-            
-            # 月番号が1〜12の範囲かどうかをチェック
-            if month >= 1 and month <= 12:
-                print(f"{month}月の花は {flowers[month]} です。")
-            else:
-                print("無効な入力です。1〜12の数字を入力してください。")
+    try:
         
-        except ValueError:
-            print("無効な入力です。整数の数字を入力してください。")
+        line = sys.stdin.readline() 
+        month = int(line.strip())
+
+        if 1 <= month <= 12:
+            print(f"{month}月の花は {flowers[month]}です。")
+        else:
+            print("無効な入力です。1〜12の数字を入力してください。")
+
+    except ValueError:
+        print("無効な入力です。整数の数字を入力してください。")
 
 if __name__ == "__main__":
     main()
- 
-
-
 
