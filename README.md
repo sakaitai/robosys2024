@@ -24,9 +24,7 @@
 ``$ echo 13 | ./tukihana ``
 -　出力結果
 -　無効な入力です。1~12の数字を入力してください
-- 
-
-  
+-  
 `git clone `
 - 実行権限の付与
 `chmod +x tukihana`
