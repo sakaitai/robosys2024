@@ -35,7 +35,11 @@
 $
 
 -ディレクトリに移動してください
-$ cd ~tmp/robosys2024
+`$ cd ~tmp/robosys2024`
+
+-実行権限の付与をしてください
+
+`$ chmod +x tukihana`
 
 
 
