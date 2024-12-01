@@ -38,7 +38,7 @@ $ git clone https://github.com/sakaitai/robosys2024_kadai.git
 $ cd ~tmp/robosys2024
 $ chmod +x tukihana
 $ echo 4 | ./tukihana
-   チューリプ
+   4月の花は藤（フジ）です。
 ```
 
 
