@@ -29,10 +29,12 @@ def main():
         if 1 <= month <= 12:
             print(f"{month}月の花は {flowers[month]}です。")
         else:
-            print("無効な入力です。1〜12の数字を入力してください。")
+            print("無効な入力です。1〜12の数字を入力してください。", file=sys.stderr)
+            sys.exit(1)
 
     except ValueError:
-        print("無効な入力です。整数の数字を入力してください。")
+        print("無効な入力です。整数の数字を入力してください。", file=sys.stderr)
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
