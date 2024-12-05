@@ -9,14 +9,14 @@
 - 無効な入力に対してはエラーメッセージが出ます。
 
 ## テスト環境および必要なソフトウェア
-- pysonテスト済みバージョン:3.7~3.10
+- Pythonテスト済みバージョン:3.7~3.10
   
-- ubuntu 20.04 LTS
+- Ubuntu 20.04 LTS
  
  ## 使用例
 - 標準入力を使用
   
-` $ echo 3 | ./tukihana`
+` $ echo 3 | ./tukihana　`
 
 - 出力結果
   
@@ -35,7 +35,7 @@
 
 ```
 $ git clone https://github.com/sakaitai/robosys2024.git
-$ cd　~/robosys2024
+$ cd ~/robosys2024
 $ chmod +x tukihana
 $ echo 4 | ./tukihana
    4月の花は藤（フジ）です。
