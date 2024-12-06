@@ -38,6 +38,7 @@ $ git clone https://github.com/sakaitai/robosys2024.git
 $ cd robosys2024
 $ chmod +x tukihana
 $ echo 4 | ./tukihana
+###実行結果###
 4月の花は藤(フジ)です。
 ```
 
