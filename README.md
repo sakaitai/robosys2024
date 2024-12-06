@@ -17,7 +17,7 @@
   
 ```
 $ echo 3 | ./tukihana
-###実行結果###
+
 3月の花は桜(サクラ)です。
 ```
   
@@ -26,7 +26,7 @@ $ echo 3 | ./tukihana
   
 ```
 $ echo 13 | ./tukihana
-###実行結果### 
+ 
 無効な入力です。1〜12の数字を入力してください。
 ``` 
 
@@ -38,7 +38,7 @@ $ git clone https://github.com/sakaitai/robosys2024.git
 $ cd robosys2024
 $ chmod +x tukihana
 $ echo 4 | ./tukihana
-###実行結果###
+
 4月の花は藤(フジ)です。
 ```
 
