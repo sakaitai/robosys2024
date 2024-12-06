@@ -27,10 +27,10 @@ def main():
         month = int(line.strip())
 
         if 1 <= month <= 12:
-            print(f"{month}月の花は {flowers[month]}です。")
+            print(f"{month}月の花は{flowers[month]}です。")
         else:
             print("無効な入力です。1〜12の数字を入力してください。", file=sys.stderr)
-            sys.exit(1)
+            sys.exit(2)
 
     except ValueError:
         print("無効な入力です。整数の数字を入力してください。", file=sys.stderr)
