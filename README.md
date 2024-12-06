@@ -9,7 +9,7 @@
 - 無効な入力に対してはエラーメッセージが出ます。
 
 ## テスト環境および必要なソフトウェア
-- Pythonテスト済みバージョン:3.7~3.12
+- Pythonテスト済みバージョン:3.7~3.13
   
 - Ubuntu 20.04 LTS
  
@@ -34,7 +34,7 @@ $ echo 13 | ./tukihana
 
 ```
 $ git clone https://github.com/sakaitai/robosys2024.git
-$ cd ~/robosys2024
+$ cd robosys2024
 $ chmod +x tukihana
 $ echo 4 | ./tukihana
 4月の花は藤（フジ）です。
@@ -45,7 +45,6 @@ $ echo 4 | ./tukihana
 
 ## ライセンス
 - このソフトウェアパッケージは、
-  https://opensource.org/license/BSD-3-Clause
   （3条項BSDライセンス）の下、再頒布および使用が許可されています。
 -  *© 2024 Sakaitai*
 
