@@ -2,7 +2,7 @@
 ロボットシステム学授業用
 
 # 月ごとの旬な花を教えてくれるコマンド
-![test](https://github.com/sakaitai/robosys2024/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/sakaitai/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/sakaitai/robosys2024/actions/workflows/test.yml)
 
 ## 機能
 - 標準入力から1~12の月を入力し、その月の花を表示する。
