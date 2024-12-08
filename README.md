@@ -2,7 +2,7 @@
 ロボットシステム学授業用
 
 # 月ごとの旬な花を教えてくれるコマンド
-![test](https://github.com/sakaitai/robosys2024/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/sakaitai/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/sakaitai/robosys2024/actions/workflows/test.yml)
 
 ## 機能
 - 標準入力から1~12の月を入力し、その月の花を表示する。
@@ -44,4 +44,4 @@ $ echo 4 | ./tukihana
 
 ## ライセンスと著作権
 - このソフトウェアパッケージは[3条項BSDライセンス](https://github.com/sakaitai/robosys2024/blob/main/LICENSE)の下、再頒布および使用が許可されています。
--  *© 2024 Sakai taisei*
+-  *© 2024 Taisei Sakai*
