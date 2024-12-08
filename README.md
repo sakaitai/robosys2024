@@ -44,4 +44,4 @@ $ echo 4 | ./tukihana
 
 ## ライセンスと著作権
 - このソフトウェアパッケージは[3条項BSDライセンス](https://github.com/sakaitai/robosys2024/blob/main/LICENSE)の下、再頒布および使用が許可されています。
--  *© 2024 Sakai taisei*
+-  *© 2024 Taisei Sakai*
